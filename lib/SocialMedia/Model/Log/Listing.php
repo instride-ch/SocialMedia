@@ -14,8 +14,8 @@
 
 namespace SocialMedia\Model\Log;
 
-use ImportDefinitions\Model\Log;
 use Pimcore\Model;
+use SocialMedia\Model\Log;
 
 /**
  * Class Listing

@@ -14,7 +14,7 @@
 
 namespace SocialMedia\Model\Log\Listing;
 
-use ImportDefinitions\Model\Log;
+use SocialMedia\Model\Log;
 use Pimcore\Model\Listing;
 use Pimcore\Tool;
 

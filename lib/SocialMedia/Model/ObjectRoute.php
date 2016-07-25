@@ -20,7 +20,7 @@ use Pimcore\Placeholder;
 
 /**
  * Class ObjectRoute
- * @package ImportDefinitions
+ * @package SocialMedia\Model
  */
 class ObjectRoute extends AbstractModel
 {

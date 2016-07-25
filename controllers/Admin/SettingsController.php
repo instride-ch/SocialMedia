@@ -30,7 +30,7 @@ class SocialMedia_Admin_SettingsController extends Admin
         //TODO: Permissions?
         /*$notRestrictedActions = array('list');
         if (!in_array($this->getParam('action'), $notRestrictedActions)) {
-            $this->checkPermission('coreshop_permission_carriers');
+            $this->checkPermission('');
         }*/
     }
 
