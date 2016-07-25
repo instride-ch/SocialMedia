@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+    <plugin>
+        <pluginName>SocialMedia</pluginName>
+        <pluginDescription><![CDATA[Share Documents/Objects through Social Media]]></pluginDescription>
+        <pluginVersion>1.0</pluginVersion>
+        <pluginRevision>1</pluginRevision>
+        <pluginBuildTimestamp>0</pluginBuildTimestamp>
+        <pluginClassName>\SocialMedia\Plugin</pluginClassName>
+        <pluginIncludePaths>
+            <path>/SocialMedia/lib</path>
+        </pluginIncludePaths>
+        <pluginNamespaces>
+            <namespace>SocialMedia</namespace>
+        </pluginNamespaces>
+        <pluginJsPaths>
+            <path>/plugins/SocialMedia/static/js/startup.js</path>
+            <path>/plugins/SocialMedia/static/js/objectRoute/panel.js</path>
+            <path>/plugins/SocialMedia/static/js/abstractNetwork.js</path>
+            <path>/plugins/SocialMedia/static/js/settings.js</path>
+            <path>/plugins/SocialMedia/static/js/socialMedia.js</path>
+            <path>/plugins/SocialMedia/static/js/networks/facebook.js</path>
+            <path>/plugins/SocialMedia/static/js/networks/twitter.js</path>
+        </pluginJsPaths>
+        <pluginCssPaths>
+            <path>/plugins/SocialMedia/static/css/social-media.css</path>
+        </pluginCssPaths>
+    </plugin>
+</zend-config>

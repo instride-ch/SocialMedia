@@ -1,0 +1,19 @@
+.socialmedia_share, .socialmedia_icon {
+    background: url(/plugins/SocialMedia/static/img/share.svg) center center no-repeat !important;
+}
+
+.socialmedia_icon_facebook {
+    background: url(/plugins/SocialMedia/static/img/facebook.svg) center center no-repeat !important;
+}
+
+.socialmedia_icon_twitter {
+    background: url(/plugins/SocialMedia/static/img/twitter.svg) center center no-repeat !important;
+}
+
+.socialmedia_icon_objectRoutes {
+    background: url(/plugins/SocialMedia/static/img/route.svg) center center no-repeat !important;
+}
+
+.socialmedia_icon_settings {
+    background: url(/plugins/SocialMedia/static/img/settings.svg) center center no-repeat !important;
+}
