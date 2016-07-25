@@ -7,6 +7,11 @@ Social Media adds an share button to Documents and Objects. Users can now easily
 
 Every click on the shared-link will be tracked.
 
+## Copyright and license
+Copyright: [Woche-Pass AG](http://www.w-vision.ch)
+For licensing details please visit [LICENSE.md](LICENSE.md)
+
+## Screenshots
 ![Interface](docs/settings.png)
 ![Routes](docs/object-routes.png)
 ![Example](docs/share-example.png)
