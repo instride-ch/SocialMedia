@@ -18,7 +18,6 @@ use Pimcore\Model\Document;
 use Pimcore\Model\Element\ElementInterface;
 use Pimcore\Model\Object\AbstractObject;
 use Pimcore\Model\Object\Concrete;
-use Pimcore\Model\Staticroute;
 
 /**
  * Class Network
