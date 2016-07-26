@@ -21,6 +21,7 @@
             <path>/plugins/SocialMedia/static/js/socialMedia.js</path>
             <path>/plugins/SocialMedia/static/js/networks/facebook.js</path>
             <path>/plugins/SocialMedia/static/js/networks/twitter.js</path>
+            <path>/plugins/SocialMedia/static/js/object/shares.js</path>
         </pluginJsPaths>
         <pluginCssPaths>
             <path>/plugins/SocialMedia/static/css/social-media.css</path>

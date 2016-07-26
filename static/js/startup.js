@@ -60,10 +60,14 @@ pimcore.plugin.socialmedia = Class.create(pimcore.plugin.admin, {
 
     postOpenDocument : function(tab, type) {
         this.createShareButton(tab, 'document', type, tab.data.id);
+
+        tab.tabbar.add(new pimcore.plugin.socialmedia.object.shares(tab, tab.data.id, 'document').getLayout());
     },
 
     postOpenObject : function(tab, type) {
         this.createShareButton(tab, 'object', type, tab.id);
+
+        tab.tabbar.add(new pimcore.plugin.socialmedia.object.shares(tab, tab.id, 'object').getLayout());
     },
 
     createShareButton : function(tab, type, subtype, id) {

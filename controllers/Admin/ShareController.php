@@ -65,4 +65,15 @@ class SocialMedia_Admin_ShareController extends Admin
             }
         }
     }
+
+    public function getSharesForElementAction() {
+        $type = $this->getParam("type");
+        $id = $this->getParam("id");
+
+        $logList = new \SocialMedia\Model\Log\Listing();
+        $logList->setCondition("elementId = ? and elementType = ?", array($id, $type));
+        $logs = $logList->load();
+
+        $this->_helper->json(array("succcess" => true, "data" => $logs));
+    }
 }

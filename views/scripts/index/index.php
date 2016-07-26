@@ -1,2 +1,0 @@
-
-SocialMedia Plugin works!
