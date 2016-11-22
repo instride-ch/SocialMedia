@@ -56,7 +56,7 @@ class Plugin extends PluginLib\AbstractPlugin implements PluginLib\PluginInterfa
             `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
             `elementId` int(11) unsigned NOT NULL DEFAULT '0',
             `elementType` enum('document','asset','object') NOT NULL DEFAULT 'document',
-            `network` varchar(255) NOT NULL,
+            `network` varchar(100) NOT NULL,
             `clicks` int(11) unsigned NOT NULL DEFAULT 0,
             UNIQUE( `elementId`, `elementType`, `network`)
         );");
