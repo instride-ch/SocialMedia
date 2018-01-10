@@ -3,9 +3,6 @@
 [![Software License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Latest Stable Version](https://img.shields.io/packagist/v/w-vision/social-media.svg?style=flat-square)](https://packagist.org/packages/w-vision/social-media)
 
-[![Software License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg?style=flat)](LICENSE.md)
-[![Latest Stable Version](https://poser.pugx.org/w-vision/social-media/v/stable)](https://packagist.org/packages/w-vision/social-media)
-
 Social Media adds an share button to Documents and Objects. Users can now easily share Documents and Objects through the click of a button.
 
 Every click on the shared-link will be tracked.
